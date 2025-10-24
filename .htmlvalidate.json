@@ -6,8 +6,5 @@
     "no-style-tag": "off",
     "script-type": "off",
     "no-self-closing": "off"
-  },
-  "transform": {
-    ".*\\.html$": ["html-validate/lib/transforms/transform-html"]
   }
 }
