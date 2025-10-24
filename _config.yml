@@ -1,0 +1,53 @@
+# Site settings
+title: "CDN и облачные технологии"
+description: "Изучаем современные технологии CDN и облачные решения для статических сайтов. Статистика использования, преимущества и отечественные провайдеры. Jekyll, Tailwind CSS, автоматизация CI/CD."
+baseurl: ""
+url: ""
+
+# Site metadata
+lang: "ru"
+timezone: "Europe/Moscow"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+theme: jekyll-theme-minimal
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Author information
+author:
+  name: "Lagutik Mikhail"
+  email: "lagutik.mikhail@example.com"
+
+# Social links
+social:
+  github: "yourusername"
+  twitter: "yourusername"
+
+# Site variables
+cdn_providers:
+  - name: "VK Cloud CDN"
+    description: "Распределённая сеть доставки контента с узлами в РФ"
+  - name: "Selectel CDN"
+    description: "Интеграция с облачным хранилищем и балансировкой трафика"
+  - name: "Яндекс.Cloud CDN"
+    description: "Кэширование и доставка статических файлов с минимальными задержками"
+  - name: "CDN RuVDS"
+    description: "Ускорение загрузки статики за счёт географически распределённых серверов"
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - .gitignore
+  - .git

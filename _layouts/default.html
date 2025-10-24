@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'ru' }}">
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="min-h-screen bg-gray-50">
+    {% include header.html %}
+
+    <main class="container mx-auto px-4 py-8">{{ content }}</main>
+
+    {% include footer.html %}
+
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  </body>
+</html>
