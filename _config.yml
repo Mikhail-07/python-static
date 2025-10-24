@@ -1,8 +1,8 @@
 # Site settings
 title: "CDN и облачные технологии"
 description: "Изучаем современные технологии CDN и облачные решения для статических сайтов. Статистика использования, преимущества и отечественные провайдеры. Jekyll, Tailwind CSS, автоматизация CI/CD."
-baseurl: ""
-url: ""
+baseurl: "/python-static"
+url: "https://mikhail-07.github.io"
 
 # Site metadata
 lang: "ru"
