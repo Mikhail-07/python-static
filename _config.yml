@@ -12,7 +12,6 @@ timezone: "Europe/Moscow"
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-theme: jekyll-theme-minimal
 
 # Plugins
 plugins:
@@ -51,3 +50,6 @@ exclude:
   - README.md
   - .gitignore
   - .git
+  - .github
+  - tailwind.config.js
+  - postcss.config.js

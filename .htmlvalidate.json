@@ -1,4 +1,3 @@
-# HTML validation configuration
 {
   "extends": ["html-validate:recommended"],
   "rules": {
