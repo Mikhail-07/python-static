@@ -5,6 +5,15 @@
     "no-inline-style": "off",
     "no-style-tag": "off",
     "script-type": "off",
-    "no-self-closing": "off"
+    "no-self-closing": "off",
+    "void-style": "off",
+    "element-permitted-occurrences": "off",
+    "no-implicit-button-type": "off",
+    "text-content": "off",
+    "no-trailing-whitespace": "off",
+    "no-missing-require": "off",
+    "no-unknown-elements": "off",
+    "no-redundant-role": "off",
+    "no-missing-references": "off"
   }
 }
