@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://mikhail-07.github.io/python-static/sitemap.xml
